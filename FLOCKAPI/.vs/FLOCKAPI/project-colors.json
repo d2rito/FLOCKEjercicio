@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fe178b0b-b6b5-400c-8b23-7728f8d2f725": {
+      "ProjectGuid": "fe178b0b-b6b5-400c-8b23-7728f8d2f725",
+      "DisplayName": "FLOCKAPI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a853ed6a-2ab1-4914-bbad-e2e5b8523a9b": {
+      "ProjectGuid": "a853ed6a-2ab1-4914-bbad-e2e5b8523a9b",
+      "DisplayName": "FLOCKTESTS",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
