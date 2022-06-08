@@ -17,14 +17,13 @@ namespace FLOCKTESTS
             //Arrange
             string user = "dorito";
             string password = "contraseña";
-            bool enabled = false; //por defecto
 
             //Act
             User usuario = new User() { UserName = user, Password = password };
             usuario.ValidateUser();
 
             //Assert
-            Assert.IsTrue(enabled);
+            Assert.IsTrue(usuario.Enabled);
         }
 
         [TestMethod]
@@ -33,14 +32,13 @@ namespace FLOCKTESTS
             //Arrange
             string user = "notdorito";
             string password = "notcontraseña";
-            bool enabled = false; //por defecto
 
             //Act
             User usuario = new User() { UserName = user, Password = password };
             usuario.ValidateUser();
 
             //Assert
-            Assert.IsFalse(enabled);
+            Assert.IsFalse(usuario.Enabled);
         }
     }
 }
